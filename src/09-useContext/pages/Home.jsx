@@ -8,7 +8,7 @@ export const Home = () => {
 		<>
 			<h1>Home</h1>
 			<hr />
-			<pre>{JSON.stringify(user, null, 4)}</pre>
+			<pre aria-label='pre'>{JSON.stringify(user, null, 4)}</pre>
 		</>
 	);
 };
